@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0; /*px이라도 적어도 됨*/
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+}
+
+.top {
+    margin-bottom: 10px;
+    border-bottom: 1px solid lightgrey; /*회색 선 하나 생김*/
+    height: 40px; /*이게업읍면 선이업어짐*/
+    line-height: 40px;
+}
+
+.navbar{ /*네비를 중앙으로 오게하기위해 만듬, top class에다 하면 안됨*/
+    width: 30%;
+    margin: 0 auto;
+}
+
+li { /*class가 아니라 li태그 니까 .넣고 시작하지 않음*/
+    list-style: none; /*동글뱅이 빠짐*/
+    float: left; /*안하면 아래로쭉 나열됨, 오른쪽으로 하나씩 옮김*/
+    margin: 0 20px; /* 가로세로머더라 */
+}
+
+.main {
+    border: 1px dotted red; 
+    clear: both; /*앞쪽에 적용된 float속성들을 제거한다*/
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+    padding-top: 16px;
+}
+
+.article {
+
+    float: left;
+    width: 30%;/*소수점이면 더 정밀하게 들어감*/
+    height: 200px;
+    padding: 16px;
+}
+
+.bottom {
+    width: 100%;
+    height: 80px;
+    background-color: lightgrey;
+    text-align: center; /*글자가 중앙으로*/
+}
+
+@media screen and (max-width:579px){ /*579이하의 화면에서, 여기서 space잘 안하면 아예 안먹힘*/
+
+    .top {
+        border-bottom: 0px solid lightgrey; /*media내에서 항목자체를 업애면안됨 양식은맞추고 0px로해놔야 줄이 사라짐*/
+        margin-bottom: 2px;
+        height: 120px; /*이게업읍면 선이업어짐*/
+    }
+
+    .navbar { /*네비를 중앙으로 오게하기위해 만듬, top class에다 하면 안됨 그런데중앙에안온다 왜?*/
+        width: 100%;
+    }
+    
+    li { /*class가 아니라 li태그 니까 .넣고 시작하지 않음*/
+        list-style: none; /*동글뱅이 빠짐*/
+        width: 100%; /*가로 100퍼므로 마진 없앤다*/
+        float: left; /*안하면 아래로쭉 나열됨, 오른쪽으로 하나씩 옮김*/
+    }
+
+    .main {
+        border: 1px dotted red; 
+        clear: both; /*앞쪽에 적용된 float속성들을 제거한다*/
+        width: 90%;
+        margin: 0 auto;
+        padding-top: 16px;
+    }
+
+   .article {
+        float: left;
+        width: 90%;
+        height: 200px;
+        padding: 16px;
+   } 
+   .bottom {
+    width: 100%;
+    height: 80px;
+    background-color: lightgrey;
+    text-align: center; /*글자가 중앙으로*/
+    }
+
+}

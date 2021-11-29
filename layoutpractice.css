@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    border: 0;
+}
+
+.center {
+    margin: 0 auto; /*가운데정렬*/
+    width: 1600px; /*%와 px의 차이 알아야 함*/
+    height: 2500px;
+    background-color: rgba(202, 202, 202, 0.795);
+}
+input {
+
+    border-radius: 20px;
+    border-color: 1px solid gray;
+
+}
+
+
+.bottom {
+    width: 100%;
+    height: 400px;
+    background-color: gray;
+}
+
+.center1 {
+    width: 1600px;
+    height: 100px;
+    background-color: pink;
+}
+
+.center2{
+    width: 1600px;
+    height: 550px;
+    background-color: rgb(253, 142, 160);
+}
+
+.center3{
+    width: 1600px;
+    height: 300px;
+    background-color: rgb(247, 97, 122);
+}
+
+.center4{
+    width: 1600px;
+    height: 400px;
+    background-color: rgb(241, 59, 90);
+}
+
+.box1{
+    float: left; /*왼쪽 기준으로 정렬*/
+    width: 400px;
+    height: 400px;
+    background-color: rgb(208, 242, 255);
+}
+
+.box2{
+    float: left;
+    width: 400px;
+    height: 400px;
+    background-color: rgb(161, 228, 255);
+}
+
+.box3{
+    float: left;
+    width: 400px;
+    height: 400px;
+    background-color: rgb(106, 213, 255);
+}
+
+.box4{
+    float: left;
+    width: 400px;
+    height: 400px;
+    background-color: rgb(18, 187, 253);
+}
+
+.picture1{
+    float: left;
+    width: 400px;
+    height: 200px;
+    background-color: rgb(255, 233, 200);
+}
+
+.picture2{
+    float: left;
+    width: 400px;
+    height: 200px;
+    background-color: rgb(255, 221, 169);
+}
+
+.picture3{
+    float: left;
+    width: 400px;
+    height: 200px;
+    background-color: rgb(243, 196, 125);
+}
+
+.picture4{
+    float: left;
+    width: 400px;
+    height: 200px;
+    background-color: rgb(252, 173, 56);
+}
+
+.write1{
+    float: left;
+    width: 400px;
+    height: 200px;
+    background-color: rgb(230, 200, 255);
+}
+
+.write2{
+    float: left;
+    width: 400px;
+    height: 200px;
+    background-color: rgb(216, 168, 255);
+}
+
+.write3{
+    float: left;
+    width: 400px;
+    height: 200px;
+    background-color: rgb(203, 140, 255);
+}
+
+.write4{
+    float: left;
+    width: 400px;
+    height: 200px;
+    background-color: rgb(179, 87, 255);
+}
+
+.navileft{
+    float: left;
+    width: 700px;
+    height: 100px;
+    background-color: rgb(192, 209, 255);
+}
+
+.navilbox1{
+    float: left;
+    width: 200px;
+    height: 100px;
+    background-color: rgb(217, 255, 192);
+}
+
+.navilbox2{
+    float: left;
+    width: 80px;
+    height: 100px;
+    background-color: rgb(186, 218, 165);
+}
+
+.navilbox3{
+    float: left;
+    width: 80px;
+    height: 100px;
+    background-color: rgb(147, 180, 125);
+}
+
+.navilbox4{
+    float: left;
+    width: 80px;
+    height: 100px;
+    background-color: rgb(104, 138, 81);
+}
+
+.navilbox5{
+    float: left;
+    width: 80px;
+    height: 100px;
+    background-color: rgb(63, 97, 40);
+}
+
+.navilbox6{
+    float: left;
+    width: 80px;
+    height: 100px;
+    background-color: rgb(84, 146, 43);
+}
+
+.navilbox7{
+    float: left;
+    width: 80px;
+    height: 100px;
+    background-color: rgb(81, 202, 0);
+}
+
+.naviright{
+    float: right;
+    width: 500px;
+    height: 100px;
+    background-color: rgb(93, 114, 172);
+}
+
+.navirbox1{
+    float: right;
+    width: 90px;
+    height: 100px;
+    background-color: rgb(219, 255, 184);
+}
+
+.navirbox2{
+    float: right;
+    width: 90px;
+    height: 100px;
+    background-color: rgb(184, 226, 142);
+}
+
+.navirbox3{
+    float: right;
+    width: 90px;
+    height: 100px;
+    background-color: rgb(151, 209, 92);
+}
+
+.navirbox4{
+    float: right;
+    width: 180px;
+    height: 100px;
+    background-color: rgb(137, 189, 86);
+}

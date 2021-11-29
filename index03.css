@@ -1,0 +1,41 @@
+* { /*all selector*/
+    margin : 0;
+    padding : 0;
+}
+
+h1 { /* tag selector*/
+    color : red;
+    background-color : black;
+}
+
+#yubi { /* id selector*/
+    font-family :Arial, Helvetica, sans-serif;
+    font-size : 1.5rem;
+
+}
+#yubi:hover {
+    background-color: red;
+    font-size : 5rem;
+}
+
+.group1{
+    color : black;
+    background-color : yellow;
+}
+.group1 :first-child{
+    background-color : magenta;
+}
+
+.second > .third {
+    background-color : red;
+}
+
+a:link, a:visited {
+    color : black;
+    text-decoration-line: none;
+}
+
+p::first-letter{
+    color : red;
+    font-size: 2rem;
+}
